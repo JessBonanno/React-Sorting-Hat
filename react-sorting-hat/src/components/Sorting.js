@@ -125,6 +125,7 @@ export default class Sorting extends Component {
         {!this.state.sorting && (
           <>
             {" "}
+            
             <House house={this.state.house}/>
           </>
         )}
